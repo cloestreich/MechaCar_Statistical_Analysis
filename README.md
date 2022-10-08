@@ -14,3 +14,10 @@ The p-value of our multiple linear regression analysis is 5.35e-11, which is ver
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 The r-squared value is 0.7149, which means that roughly 71% of the variablilty of our dependent variable (MPG) is explained using this linear model. While this is fairly predictive, our Intercept is also statistically significant (p= 5.08e-08), so 1) the significant features (vehicle length and ground clearance) may need scaling or transforming to help improve the power of the model, and/or 2) there may be other variables that can help explain the variability of MPG that have not been included in our model.
+
+## Summary Statistics on Suspension Coils
+![TotalSummaryDev2](https://user-images.githubusercontent.com/108380062/194726762-b65209ca-7f22-46cb-9519-d29e77a9b873.png)
+![LotSummaryDev2](https://user-images.githubusercontent.com/108380062/194726768-0387ecc1-6f67-45c4-8fda-d1292ba3d58e.png)
+1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+When reviewing the total summary data for our MechaCar suspension coils, it looks like the variance of the suspension coils of 62.29 is not exceeding the limit of 100 per square inch.  But when looking at the lot summary data, we see the data for Lot 3 indicating a variance of 170.27 pounds per square inch, which is much higher than the limit specific in the design. Lots 1 and 2 provide a variance of 0.98 and 7.47, which is within the limit.
