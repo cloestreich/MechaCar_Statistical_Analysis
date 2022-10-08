@@ -22,4 +22,8 @@ The r-squared value is 0.7149, which means that roughly 71% of the variablilty o
 
 When reviewing the total summary data for our MechaCar suspension coils, it looks like the variance of the suspension coils of 62.29 is not exceeding the limit of 100 per square inch.  But when looking at the lot summary data, we see the data for Lot 3 indicating a variance of 170.27 pounds per square inch, which is much higher than the limit specific in the design. Lots 1 and 2 provide a variance of 0.98 and 7.47, which is within the limit.
 
+## T-Tests on Suspension Coils
+![Test and Lot 1](https://user-images.githubusercontent.com/108380062/194727390-58fe8104-9656-4aac-98cc-4abf3b4adb09.png)
+![Lots 2 and 3](https://user-images.githubusercontent.com/108380062/194727399-7e780c89-fdee-4903-879d-aa29526c79f5.png)
 
+Across all lots, the t-tests revealed a mean PSI of 1498.78, which was not statistically different from the population mean PSI of 1500 psi. Lot 1 (with a mean of 1500 PSI and a p-value of 1) and Lot 2 (with a mean of 1500.2 PSI and a p-value of 0.6072) were not statistically different from the population mean PSI of 1500. Lot 3 (with a mean of 1496.14 PSI and a p-value of 0.04168) however, was found to be significantly statistically different from the population mean PSI.
